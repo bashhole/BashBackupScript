@@ -15,8 +15,8 @@
 FILE=fulldb.sql.`date +"%Y%m%d"`
 DBSERVER=127.0.0.1
 DATABASE=
-USER=root
-PASS=Zpfoboty._123321
+USER=youlogin
+PASS=youpassword
 
 # (2) in case you run this more than once a day, remove the previous version of the file
 unalias rm     2> /dev/null
