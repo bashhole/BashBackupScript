@@ -10,10 +10,6 @@ IPSERVER=youip
 unalias rm     2> /dev/null
 rm ${FILE}     2> /dev/null
 rm ${FILE}.gz  2> /dev/null
-# (3) do the mysql database backup (dump)
-
-# use this command for a database server on a separate host:
-#mysqldump --opt --protocol=TCP --user=${USER} --password=${PASS} --host=${DBSERVER} ${DATABASE} > ${FILE}
 
 # use this command for a database server on localhost. add other options if need be.
 cd /backup/
